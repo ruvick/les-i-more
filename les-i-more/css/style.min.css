@@ -162,6 +162,12 @@ h4 {
   line-height: 38px;
 }
 
+h4 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
 .title {
   text-align: center;
   color: #222222;
@@ -3466,6 +3472,70 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   font-size: 26px;
   line-height: 31.2px;
   color: #161615;
+}
+
+.contacts {
+  padding: 35px 0;
+  background: #BBBAB9;
+}
+
+.contacts__row {
+  justify-content: space-between;
+}
+
+.contacts__menu {
+  flex: 0 1 800px;
+  justify-content: space-between;
+}
+
+.contacts__menu-title {
+  margin-bottom: 23px;
+}
+
+.contacts__menu-list {
+  margin-bottom: 23px;
+}
+.contacts__menu-list:last-child {
+  margin-bottom: 0;
+}
+
+.contacts__menu-list-item {
+  font-size: 18px;
+  line-height: 31px;
+}
+
+.contacts__block-img {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.contacts__block-img-phone {
+  font-size: 24px;
+  line-height: 28.8px;
+  text-align: left;
+  color: #161615;
+}
+
+.contacts__block-img-card {
+  height: 115px;
+  margin-top: 52px;
+  overflow: hidden;
+}
+
+.contacts__block-img-card-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 230px;
+  padding: 15px;
+  font-size: 20px;
+  text-align: center;
+  background: #fff;
+}
+
+.contacts__block-img-card-images {
+  flex: 0 0 163px;
 }
 
 @media (max-width: 1200px) {
