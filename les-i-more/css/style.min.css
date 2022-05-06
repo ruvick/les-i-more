@@ -110,7 +110,8 @@ body {
   color: #000;
 }
 body a {
-  font-family: "Lato";
+  font-family: "Montserrat";
+  font-weight: 400;
   color: #1a1818;
 }
 body._lock {
@@ -119,22 +120,23 @@ body._lock {
 }
 
 h1 {
-  font-size: 35px;
-  font-weight: 500;
-  line-height: 132%;
-  line-height: 38px;
-}
-
-h2 {
+  font-family: "SputnikDisplay", sans-serif;
   font-size: 60px;
   font-weight: 500;
   line-height: 72px;
 }
 
-h3 {
-  font-size: 28px;
+h2 {
+  font-family: "SputnikDisplay", sans-serif;
+  font-size: 58.57px;
   font-weight: 500;
-  line-height: 38px;
+  line-height: 58.57px;
+}
+
+h3 {
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 55.2px;
 }
 
 h4 {
@@ -143,7 +145,7 @@ h4 {
   line-height: 38px;
 }
 
-h4 {
+h5 {
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
@@ -190,7 +192,7 @@ h4 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 10.5px 44.5px;
+  padding: 10.5px 59px;
   font-size: 16px;
   font-weight: 400;
   color: #000;
@@ -3457,17 +3459,19 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .footer__block-descp {
   position: relative;
   z-index: 5;
-  flex: 0 1 660px;
+  flex: 0 1 800px;
 }
 
 .footer__block-descp-title {
   font-size: 20px;
+  font-weight: 500;
   line-height: 24px;
   margin-bottom: 25px;
 }
 
 .footer__block-descp-subtitle {
   font-size: 14px;
+  font-weight: 500;
   line-height: 16.8px;
 }
 
@@ -3513,7 +3517,9 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .first-screen__title {
-  font-size: 196.3px;
+  font-family: "SputnikDisplay", sans-serif;
+  font-weight: 700;
+  font-size: 195px;
   line-height: 0.65;
   color: #e1e1e1;
 }
@@ -3569,7 +3575,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .advantages__item-number {
-  font-family: "Lato-Light";
+  font-family: "Lato";
   font-size: 87.4px;
   line-height: 87.4px;
   color: #8b7e19;
@@ -3578,6 +3584,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .advantages__item-text {
   font-size: 26px;
+  font-weight: 500;
   line-height: 31.2px;
   color: #161615;
 }
@@ -3597,6 +3604,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .contacts__menu-title {
+  font-weight: 700;
   margin-bottom: 23px;
 }
 
@@ -3609,6 +3617,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .contacts__menu-list-item {
   font-size: 18px;
+  font-weight: 500;
   line-height: 31px;
 }
 
@@ -3620,6 +3629,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .contacts__block-img-phone {
   font-size: 24px;
+  font-weight: 500;
   line-height: 28.8px;
   text-align: left;
   color: #161615;
@@ -3638,6 +3648,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   width: 230px;
   padding: 15px;
   font-size: 20px;
+  font-weight: 700;
   text-align: center;
   background: #fff;
 }
@@ -3685,6 +3696,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .developer__descp-subtitle {
   font-size: 20px;
+  font-weight: 500;
   line-height: 24px;
   text-align: left;
   color: #161615;

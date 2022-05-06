@@ -56,7 +56,8 @@ body {
 	// background: #333;
 
 	a {
-		font-family: "Lato";
+		font-family: "Montserrat";
+		font-weight: $fontWeight;
 		color: #1a1818;
 	}
 
@@ -70,22 +71,23 @@ body {
 
 //<ЗАГОЛОВКИ>=================================================================================================================
 h1 {
-	font-size: 35px;
-	font-weight: 500;
-	line-height: 52.8 / 40 *100%;
-	line-height: 38px;
-}
-
-h2 {
+	font-family: "SputnikDisplay", sans-serif;
 	font-size: 60px;
 	font-weight: 500;
 	line-height: 72px;
 }
 
-h3 {
-	font-size: 28px;
+h2 {
+	font-family: "SputnikDisplay", sans-serif;
+	font-size: 58.57px;
 	font-weight: 500;
-	line-height: 38px;
+	line-height: 58.57px;
+}
+
+h3 {
+	font-size: 46px;
+	font-weight: 500;
+	line-height: 55.2px;
 }
 
 h4 {
@@ -94,11 +96,18 @@ h4 {
 	line-height: 38px;
 }
 
-h4 {
+h5 {
 	font-size: 20px;
 	font-weight: 500;
 	line-height: 24px;
 }
+
+// h6 {
+// 	font-family: "SputnikDisplay", sans-serif;
+// 	font-size: 20px;
+// 	font-weight: 500;
+// 	line-height: 24px;
+// }
 
 .title {
 	text-align: center;
@@ -216,7 +225,9 @@ h4 {
 }
 
 .first-screen__title {
-	font-size: 196.3px;
+	font-family: "SputnikDisplay", sans-serif;
+	font-weight: 700;
+	font-size: 195px;
 	line-height: 0.65;
 	color: #e1e1e1;
 }
@@ -277,7 +288,7 @@ h4 {
 }
 
 .advantages__item-number {
-	font-family: 'Lato-Light';
+	font-family: 'Lato';
 	font-size: 87.4px;
 	line-height: 87.4px;
 	color: #8b7e19;
@@ -286,6 +297,7 @@ h4 {
 
 .advantages__item-text {
 	font-size: 26px;
+	font-weight: 500;
 	line-height: 31.2px;
 	color: #161615;
 }
@@ -309,6 +321,7 @@ h4 {
 .contacts__menu-column {}
 
 .contacts__menu-title {
+	font-weight: 700;
 	margin-bottom: 23px;
 }
 
@@ -322,6 +335,7 @@ h4 {
 
 .contacts__menu-list-item {
 	font-size: 18px;
+	font-weight: 500;
 	line-height: 31px;
 }
 
@@ -335,6 +349,7 @@ h4 {
 
 .contacts__block-img-phone {
 	font-size: 24px;
+	font-weight: 500;
 	line-height: 28.8px;
 	text-align: left;
 	color: #161615;
@@ -353,6 +368,7 @@ h4 {
 	width: 230px;
 	padding: 15px;
 	font-size: 20px;
+	font-weight: 700;
 	text-align: center;
 	background: #fff;
 }
@@ -405,6 +421,7 @@ h4 {
 
 .developer__descp-subtitle {
 	font-size: 20px;
+	font-weight: 500;
 	line-height: 24px;
 	text-align: left;
 	color: #161615;
