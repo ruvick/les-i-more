@@ -3874,8 +3874,59 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .WrapperPage__sidebar {
   flex: 0 0 590px;
+  padding: 35px 85px 60px 85px;
   overflow: auto;
   background: #E1E1E1;
+}
+
+.WrapperPage__sidebar-infoBlock-item {
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #fff;
+}
+
+.WrapperPage__sidebar-infoBlock-item-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0 53px;
+  height: 53px;
+  border-radius: 50%;
+  background: #fff;
+  overflow: hidden;
+  margin-right: 38px;
+}
+
+.WrapperPage__sidebar-infoBlock-item-descp-mame {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 21.6px;
+}
+
+.WrapperPage__sidebar-infoBlock-item-descp-charect {
+  margin-top: 10px;
+}
+
+.WrapperPage__sidebar-infoBlock-item-descp-charect-time {
+  font-size: 14px;
+  line-height: 16.8px;
+  margin-right: 25px;
+}
+
+.WrapperPage__sidebar-infoBlock-item-descp-charect-distance {
+  font-size: 14px;
+  line-height: 16.8px;
+}
+
+.WrapperPage__sidebar-select {
+  padding-bottom: 28px;
+  border-bottom: 1px solid #879026;
+}
+
+.WrapperPage__sidebar-select-name {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 500;
 }
 
 @media (max-width: 1200px) {
