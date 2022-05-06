@@ -3830,6 +3830,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   margin-bottom: 43px;
 }
 
+.calculator-block {
+  padding: 72px 0;
+  background: #D1B897;
+}
+
 @media (max-width: 1200px) {
   ._container {
     padding: 0 10px;
