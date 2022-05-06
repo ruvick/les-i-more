@@ -3510,7 +3510,8 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .first-screen {
-  height: 1080px;
+  height: 93vh;
+  min-height: 100vh;
   background-position: 0 0;
   background-size: cover;
   background-repeat: no-repeat;
