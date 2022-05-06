@@ -500,7 +500,7 @@ h5 {
 	right: 0;
 	width: 863px;
 	height: 630px;
-	border: 1px solid #000;
+	overflow: hidden;
 }
 
 .SecNavigation__descp {
@@ -508,7 +508,6 @@ h5 {
 	width: 100%;
 	min-height: 448px;
 	padding: 80px 60px 80px 0px;
-	border: 1px solid #000;
 }
 
 .SecNavigation__descp-title {
