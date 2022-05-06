@@ -178,7 +178,7 @@ h5 {
 //@import "baguetteBox";
 // @import "fancybox.min";
 //@import "pagging";
-// @import "map";
+@import "map";
 // @import "slider-index";
 // @import "catalog";
 // @import "collection";
@@ -579,6 +579,21 @@ h5 {
 	height: 700px;
 	overflow: hidden;
 	margin-bottom: 35px;
+}
+
+.WrapperPage {
+	height: 950px;
+}
+
+.WrapperPage__main {
+	flex: 1 1 auto;
+}
+
+.WrapperPage__sidebar {
+	flex: 0 0 590px;
+	overflow: auto;
+	background: #E1E1E1;
+	// border: 1px solid #000;
 }
 
 //</ОСНОВНОЙ БЛОК>====================================================================================================
