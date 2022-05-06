@@ -3804,6 +3804,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .SecNavigation__descp-subtitle {
   font-size: 20px;
   line-height: 24px;
+  margin-bottom: 25px;
+}
+.SecNavigation__descp-subtitle:last-child {
+  margin-bottom: 0;
 }
 
 .SecNavigation__list {
@@ -3833,6 +3837,13 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .calculator-block {
   padding: 72px 0;
   background: #D1B897;
+}
+
+.SecNavigation__descp-img-certificat {
+  max-width: 503px;
+  height: 700px;
+  overflow: hidden;
+  margin-bottom: 35px;
 }
 
 @media (max-width: 1200px) {
