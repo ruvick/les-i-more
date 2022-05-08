@@ -994,12 +994,12 @@ h5 {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-image: url('../img/materials-bg.jpg');
+	margin-bottom: 117px;
 }
 
 .materials-blcok {
 	display: flex;
 	justify-content: flex-end;
-	margin-bottom: 117px;
 }
 
 .materials-blcok__big-number {}
@@ -1039,6 +1039,51 @@ h5 {
 	font-size: 26px;
 	line-height: 31.2px;
 	font-weight: 500;
+}
+
+//========================================================================================================================================================
+
+.club-buyers {}
+
+.club-buyers__bg {
+	background-image: url('../img/club-buyers-bg.jpg');
+}
+
+.club-buyers .materials-blcok__descp-title {
+	color: #fff;
+}
+
+.club-buyers .materials-blcok__descp {
+	color: #fff;
+	background: #879026;
+}
+
+.club-buyers__big-number {
+	color: #fff !important;
+}
+
+.club-buyers .materials-blcok {
+	justify-content: start;
+}
+
+.club-buyers__descp {
+	padding: 56px 0;
+	background: #727687;
+}
+
+.club-buyers__descp-paragraph {
+	font-size: 20px;
+	line-height: 24px;
+	color: #fff;
+	margin-bottom: 20px;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.club-buyers__bg {
+	margin-bottom: 0;
 }
 
 //</ОСНОВНОЙ БЛОК>====================================================================================================
