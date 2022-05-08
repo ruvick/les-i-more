@@ -651,6 +651,124 @@ h5 {
 	font-weight: 500;
 }
 
+//========================================================================================================================================================
+
+.location {
+	padding: 43px 0;
+}
+
+.location__row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.location__descp {
+	flex: 0 0 358px;
+	margin-top: -5%;
+}
+
+.big-number {}
+
+.location__descp-text {
+	font-size: 20px;
+	line-height: 24px;
+	margin-bottom: 25px;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.location__navigation {
+	flex: 0 1 1045px;
+}
+
+.location__navigation-title {
+	font-family: 'SputnikDisplay', sans-serif;
+	margin-bottom: 10px;
+}
+
+.location__navigation-subtitle {
+	font-size: 52px;
+	font-weight: 500;
+	line-height: 62.4px;
+}
+
+.location__navigation-imagesBlock {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
+}
+
+.location__navigation-imagesBlock-img {
+	max-width: 1045px;
+	width: 100%;
+	height: 611px;
+	overflow: hidden;
+}
+
+.location__navigation-imagesBlock-link {
+	max-width: 378px;
+	width: 100%;
+	min-height: 85px;
+	font-size: 21px;
+	align-self: center;
+	color: #fff;
+}
+
+.location__navigation-imagesBlock-map {
+	position: absolute;
+	bottom: -20%;
+	right: -9%;
+	max-width: 430px;
+	width: 100%;
+	height: 430px;
+	border: 1px solid #000;
+}
+
+.location__advantagesBlock {
+	display: flex;
+	margin-top: 111px;
+}
+
+.location__advantagesBlock-choice {
+	flex: 0 0 393px;
+	max-height: 393px;
+	padding: 58px 30px 35px 53px;
+	background: #E1E1E1;
+}
+
+.location__advantagesBlock-choice-title {
+	font-size: 36px;
+	font-weight: 500;
+	line-height: 43.2px;
+	margin-bottom: 86px;
+}
+
+.location__advantagesBlock-choice-link {}
+
+.location__advantagesBlock-descp {
+	flex: 1 1 auto;
+	padding: 67px 107px 35px 132px;
+	background: #917E7E;
+}
+
+.location__advantagesBlock-descp-paragraph {
+	color: #fff;
+	margin-bottom: 15px;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.location__advantagesBlock-img {
+	flex: 0 0 403px;
+	height: 611px;
+	overflow: hidden;
+}
+
 //</ОСНОВНОЙ БЛОК>====================================================================================================
 
 //<Адаптив>===========================================================================================================================================
