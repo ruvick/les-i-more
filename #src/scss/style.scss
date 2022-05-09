@@ -262,6 +262,8 @@ h5 {
 }
 
 .advantages__title {
+	font-family: 'Montserrat';
+	font-weight: 500;
 	margin-bottom: 85px;
 
 	&:before {
@@ -291,6 +293,7 @@ h5 {
 
 .advantages__item-number {
 	font-family: 'Lato';
+	font-weight: 100;
 	font-size: 87.4px;
 	line-height: 87.4px;
 	color: #8b7e19;
@@ -732,12 +735,15 @@ h5 {
 
 .location__navigation-imagesBlock-map {
 	position: absolute;
-	bottom: -20%;
+	bottom: -22%;
 	right: -9%;
 	max-width: 430px;
 	width: 100%;
 	height: 430px;
-	border: 1px solid #000;
+}
+
+.location__navigation-imagesBlock-map-nuar_blk {
+	background-color: #00000010;
 }
 
 .location__advantagesBlock {
@@ -1002,7 +1008,10 @@ h5 {
 	justify-content: flex-end;
 }
 
-.materials-blcok__big-number {}
+.materials-blcok__big-number {
+	color: #384C23;
+	margin-right: -30px;
+}
 
 .materials-blcok__descp {
 	max-width: 620px;
@@ -1060,6 +1069,7 @@ h5 {
 
 .club-buyers__big-number {
 	color: #fff !important;
+	margin-right: -10px;
 }
 
 .club-buyers .materials-blcok {
