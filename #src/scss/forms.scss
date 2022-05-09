@@ -31,7 +31,7 @@
 	font-weight: 400;
 	color: #fff;
 	background: #879026;
-	border: 1.5px solid #879026;
+	// border: 1.5px solid #879026;
 
 	// border-radius: 5px;
 	&:hover {}
@@ -39,6 +39,12 @@
 	&.fw {
 		width: 100%;
 	}
+}
+
+.btn-transparent {
+	color: #879026;
+	background: transparent;
+	border: 1.5px solid #879026;
 }
 
 .button {
