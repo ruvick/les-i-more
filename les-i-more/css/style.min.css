@@ -3784,6 +3784,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .BtnWrap {
+  position: relative;
   padding: 70px 0;
   background: #E1E1E1;
 }
@@ -4591,6 +4592,22 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   width: 850px;
   height: 562px;
   margin-left: auto;
+}
+
+.page-recurring__content {
+  padding-top: 75px;
+}
+
+.winner-img {
+  max-width: 503px;
+  width: 100%;
+  height: 696px;
+  overflow: hidden;
+}
+
+.winner-descp {
+  padding: 42px 25px 0 0;
+  margin-left: -200px;
 }
 
 @media (max-width: 1200px) {
