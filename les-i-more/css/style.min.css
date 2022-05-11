@@ -3247,6 +3247,12 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   margin-bottom: 0;
 }
 
+.sidebar-menu__navigation-title-link {
+  font-size: 32px;
+  line-height: 38.4px;
+  color: #fff;
+}
+
 .sidebar-menu__navigation-list {
   margin-bottom: 30px;
 }
@@ -3630,6 +3636,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   justify-content: space-between;
 }
 
+.contacts__menu-title-link,
 .contacts__menu-title {
   font-weight: 700;
   margin-bottom: 23px;
