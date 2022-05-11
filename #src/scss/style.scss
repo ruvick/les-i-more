@@ -1359,6 +1359,17 @@ h5 {
 	padding: 70px 0px 100px 0px;
 	// min-height: 820px;
 	background: #E1E1E1;
+
+	&::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: -50%;
+		z-index: -1;
+		height: 100%;
+		width: 100%;
+		background: #E1E1E1;
+	}
 }
 
 .SecNavContacts__block-title {
@@ -1425,7 +1436,7 @@ h5 {
 	flex: 1 1 auto;
 	padding-left: 87px;
 	padding-bottom: 60px;
-	padding: 20px 0 60px 87px;
+	padding: 255px 0 145px 87px;
 }
 
 .flexBlock__descp-title {}
@@ -1448,6 +1459,23 @@ h5 {
 }
 
 //</ОСНОВНОЙ БЛОК>====================================================================================================
+.Cont {
+	padding-bottom: 117px;
+
+}
+
+.Cont__container {
+	max-width: 1680px;
+	margin-right: 0;
+}
+
+.Cont__row {
+	display: flex;
+}
+
+.Cont__column {
+	flex: 0 1 50%;
+}
 
 //<Адаптив>===========================================================================================================================================
 @import "media";
