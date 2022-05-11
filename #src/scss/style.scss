@@ -1322,57 +1322,30 @@ h5 {
 
 //========================================================================================================================================================
 
-.navigationPage__container {
-	max-width: 1680px;
-	margin-right: 0px;
-}
+// .navigationPage__container {
+// 	max-width: 1680px;
+// 	margin-right: 0px;
+// }
 
-.navigationPage__row {
-	display: flex;
-	justify-content: space-between;
-}
+// .navigationPage__row {
+// 	display: flex;
+// 	justify-content: space-between;
+// }
 
-.navigationPage__img {
-	flex: 0 1 862px;
-	height: 630px;
-	overflow: hidden;
-}
+// .navigationPage__img {
+// 	flex: 0 1 862px;
+// 	height: 630px;
+// 	overflow: hidden;
+// }
 
-.SecNavContacts {
-	position: relative;
-
-	&::before {
-		content: "";
-		top: 0;
-		height: 100%;
-		width: 55%;
-		position: absolute;
-		left: 0;
-		background: #E1E1E1;
-		z-index: -1;
-	}
-}
-
-.SecNavContacts__block {
+.contactsNav-block {
 	flex: 1 1 auto;
 	position: relative;
 	padding: 70px 0px 100px 0px;
-	// min-height: 820px;
 	background: #E1E1E1;
-
-	&::before {
-		content: "";
-		position: absolute;
-		top: 0;
-		left: -50%;
-		z-index: -1;
-		height: 100%;
-		width: 100%;
-		background: #E1E1E1;
-	}
 }
 
-.SecNavContacts__block-title {
+.contactsNav-block__title {
 	font-family: 'SputnikDisplay', sans-serif;
 	font-weight: 700;
 	font-size: 58.57px;
@@ -1380,13 +1353,13 @@ h5 {
 	margin-bottom: 8px;
 }
 
-.SecNavContacts__block-subtitle {
+.contactsNav-block__subtitle {
 	margin-bottom: 78px;
 }
 
-.SecNavContacts__block-list {}
+.contactsNav-block__list {}
 
-.SecNavContacts__block-list-item {
+.contactsNav-block__list-item {
 	display: flex;
 	justify-content: space-between;
 	font-size: 26px;
@@ -1406,42 +1379,27 @@ h5 {
 	}
 }
 
-.SecNavContacts__block-list-item-inner {
+.contactsNav-block__list-item-inner {
+	display: flex;
+	flex-direction: column;
 	flex: 0 1 80%;
 }
 
-.SecNavContacts__block-list-item-inner {
-	display: flex;
-	flex-direction: column;
-}
-
-.SecNavContacts__block-btn {
+.contactsNav-block__btn {
 	align-self: self-start;
 	margin-top: 27px;
 }
 
-.flexBlock {}
-
-.flexBlock__row {
-	display: flex;
-}
-
-.flexBlock__img {
-	flex: 0 0 820px;
-	min-height: 560px;
-	overflow: hidden;
-}
-
-.flexBlock__descp {
+.page-recurring__block-descp {
 	flex: 1 1 auto;
 	padding-left: 87px;
 	padding-bottom: 60px;
 	padding: 255px 0 145px 87px;
 }
 
-.flexBlock__descp-title {}
+.page-recurring__block-descp-title {}
 
-.flexBlock__descp-subtitle {
+.page-recurring__block-descp-subtitle {
 	font-size: 20px;
 	line-height: 24px;
 	font-weight: 500;
@@ -1452,30 +1410,14 @@ h5 {
 	}
 }
 
-.flexBlock__map {
+.page-recurring__block-map {
 	width: 850px;
 	height: 562px;
 	margin-left: auto;
 }
 
 //</ОСНОВНОЙ БЛОК>====================================================================================================
-.Cont {
-	padding-bottom: 117px;
 
-}
-
-.Cont__container {
-	max-width: 1680px;
-	margin-right: 0;
-}
-
-.Cont__row {
-	display: flex;
-}
-
-.Cont__column {
-	flex: 0 1 50%;
-}
 
 //<Адаптив>===========================================================================================================================================
 @import "media";

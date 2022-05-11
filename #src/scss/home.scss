@@ -2,20 +2,36 @@
 
 // Общий класс главной обертки
 .page-recurring {
-  padding-bottom: 150px;
+  padding-bottom: 117px;
+
 }
 
-// Общий класс для страниц
-.recurring {
-  padding-top: 27px;
+.page-recurring__container {
+  max-width: 1680px;
+  margin-right: 0;
 }
 
-.recurring h1,
-.recurring h2 {
-  margin-bottom: 28px;
+.page-recurring__wrapper {
+  display: flex;
 }
 
-//=============================================================================================================================
+.page-recurring__column {
+  flex: 0 1 50%;
+}
+
+// Фон блока
+.page-recurring-bg:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  background: #E1E1E1;
+}
+
+//============================================================================================================================
 
 // Большие цифры
 
