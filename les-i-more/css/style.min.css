@@ -4541,7 +4541,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .SecNavContacts__block {
   flex: 1 1 auto;
   position: relative;
-  padding: 70px 220px 100px 0px;
+  padding: 70px 0px 100px 0px;
   background: #E1E1E1;
 }
 
@@ -4558,12 +4558,34 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .SecNavContacts__block-list-item {
+  display: flex;
+  justify-content: space-between;
   font-size: 26px;
   line-height: 31.2px;
   margin-bottom: 80px;
 }
+.SecNavContacts__block-list-item p {
+  flex: 0 1 45%;
+}
+.SecNavContacts__block-list-item span {
+  flex: 0 1 80%;
+}
 .SecNavContacts__block-list-item:last-child {
   margin-bottom: 0;
+}
+
+.SecNavContacts__block-list-item-inner {
+  flex: 0 1 80%;
+}
+
+.SecNavContacts__block-list-item-inner {
+  display: flex;
+  flex-direction: column;
+}
+
+.SecNavContacts__block-btn {
+  align-self: self-start;
+  margin-top: 27px;
 }
 
 .flexBlock__row {
@@ -4571,7 +4593,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .flexBlock__img {
-  flex: 0 0 830px;
+  flex: 0 0 820px;
   min-height: 560px;
   overflow: hidden;
 }
