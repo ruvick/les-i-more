@@ -32,6 +32,27 @@
 }
 
 //============================================================================================================================
+// Заголовок с иконкой
+.title-under {
+  display: flex;
+  flex-direction: column-reverse;
+  margin-bottom: 20px;
+
+  &:before {
+    content: '';
+    content: "";
+    float: left;
+    width: 76px;
+    height: 8.5px;
+    margin-top: 20px;
+    background-size: 100%;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3NS4zODUiIGhlaWdodD0iOC4zNzEiIHZpZXdCb3g9IjAgMCA3NS4zODUgOC4zNzEiPg0KICA8ZyBpZD0i0KHQs9GA0YPQv9C/0LjRgNC+0LLQsNGC0YxfMzkwIiBkYXRhLW5hbWU9ItCh0LPRgNGD0L/Qv9C40YDQvtCy0LDRgtGMIDM5MCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTY3MDIuMDQ2IC0yNDQzLjY4NykiPg0KICAgIDxnIGlkPSLQodCz0YDRg9C/0L/QuNGA0L7QstCw0YLRjF8zODkiIGRhdGEtbmFtZT0i0KHQs9GA0YPQv9C/0LjRgNC+0LLQsNGC0YwgMzg5Ij4NCiAgICAgIDxwYXRoIGlkPSLQmtC+0L3RgtGD0YBfMTUyMSIgZGF0YS1uYW1lPSLQmtC+0L3RgtGD0YAgMTUyMSIgZD0iTTY3MjMuODksMjQ1Mi4wNThjLS4xMTQsMC0uMjI4LDAtLjM0NC0uMDA1LTMuNTY0LS4wOTUtNS44NjYtMS43MTgtNy45LTMuMTUtMS45ODktMS40LTMuNzA3LTIuNjE0LTYuNDgyLTIuNjE0YTExLjQwNywxMS40MDcsMCwwLDAtNS42NzMsMS45MzFsLTEuNDQ3LTIuMDM0YTEzLjgxNiwxMy44MTYsMCwwLDEsNy4xMi0yLjM5M2MzLjU2NiwwLDUuODgsMS42MzEsNy45MjEsMy4wNywxLjkxMSwxLjM0NywzLjcxNiwyLjYyLDYuNTI2LDIuNywzLjI3LjA4Niw1LjYtMS4zNTEsOC4wNjgtMi44NzQsMi4yMjYtMS4zNzQsNC41MjgtMi43OTQsNy40OTUtMi45NzksMy4zNDMtLjIxMSw2LjExMiwxLjQ2NCw4Ljc5LDMuMDgxLDIuMzYsMS40MjYsNC41ODksMi43NzIsNy4wNTMsMi43NzIsMi44NDQsMCw0Ljg1OS0xLjM0NSw2Ljk5My0yLjc2OCwyLjIwNy0xLjQ3NCw0LjQ5LTMsNy42OTEtM2ExMS4zNDMsMTEuMzQzLDAsMCwxLDcuNzI4LDIuOGwtMS43NjQsMS43NjVhOC44NjMsOC44NjMsMCwwLDAtNS45NjQtMi4wNjZjLTIuNDQ0LDAtNC4yMzQsMS4xOTQtNi4zMDYsMi41NzctMi4yMzksMS40OTQtNC43NzcsMy4xODgtOC4zNzgsMy4xODgtMy4xNTksMC01Ljc5NS0xLjU5Mi04LjM0My0zLjEzMS0yLjQ1OC0xLjQ4NS00Ljc3OS0yLjg4NS03LjM0NC0yLjcyNy0yLjM0My4xNDYtNC4yODUsMS4zNDQtNi4zNDEsMi42MTJDNjczMC41MTgsMjQ1MC4zMzQsNjcyNy43MjMsMjQ1Mi4wNTgsNjcyMy44OSwyNDUyLjA1OFoiIGZpbGw9IiM4NzkwMjYiLz4NCiAgICA8L2c+DQogIDwvZz4NCjwvc3ZnPg0K');
+  }
+}
+
+//========================================================================================================================================================
 
 // Большие цифры
 
