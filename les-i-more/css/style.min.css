@@ -4584,6 +4584,14 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   padding-top: 70px;
 }
 
+.ipoteka-page {
+  padding-bottom: 20px;
+}
+
+.ipoteka-page-content {
+  padding-bottom: 75px;
+}
+
 @media (max-width: 1200px) {
   ._container {
     padding: 0 10px;
